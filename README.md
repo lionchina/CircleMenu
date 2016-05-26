@@ -1,6 +1,6 @@
 # CircleMenu
 
-A circle menu (iOS version). You can customize the number of buttons with image and title between (1 ~ 10).
+A circle menu (iOS version). You can customize the number of buttons with image and title between (1 ~ 9).
 
 ![Animation](screenshots/screenshot_1.gif "Animation")
 
@@ -24,7 +24,7 @@ A circle menu (iOS version). You can customize the number of buttons with image 
     for (int i = 0; i < randomcount; i++) {
       [arrayItem addObject:[[NSDictionary alloc] initWithObjectsAndKeys:[NSString stringWithFormat:@"i%d", i], @"title", @"item_bg.png", @"image", nil]];
     }
-    [_circleMenuDemo setData:arrayItem];  
+    [_circleMenuDemo setViewWithInfo:arrayItem];  
 
 ### Override the protocol
   
