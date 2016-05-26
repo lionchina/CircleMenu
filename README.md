@@ -1,6 +1,6 @@
 # CircleMenu
 
-A circle menu (iOS version). You can customize the number of buttons with image and title between (1 ~ 9).
+A circle menu (iOS version). You can customize the number of buttons with image and title between 1 and 9.
 
 ![Animation](screenshots/screenshot_1.gif "Animation")
 
